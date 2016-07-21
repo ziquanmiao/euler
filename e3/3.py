@@ -8,7 +8,7 @@
 # In[9]:
 
 def Euler3(inputval):
-    assert isinstance(inputval,long)
+    assert isinstance(inputval,long) or isinstance(inputval,int)
     
     Upper = inputval
     factors = []
